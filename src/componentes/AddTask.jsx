@@ -5,7 +5,7 @@ export const AddTask = ({ addTasks }) => {
 
     return <>
         <input ref={inputRef} type="text" />
-        <button onClick={() => {addTasks(inputRef.current.value)}}>Agregar </button>
+        <button onClick={() => {addTasks(inputRef.current.value)}}> Agregar </button>
     </>
 }
 
